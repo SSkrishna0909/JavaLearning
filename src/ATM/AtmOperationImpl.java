@@ -10,6 +10,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
     public void viewBalance() {
 
         System.out.println("Available Balance is: " +atm.getBalance());
+        System.out.println("file added");
     }
 
     @Override
